@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+  height: 100vh;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e0e0e0;
+}
+
+.container {
+  margin: 3rem;
+  background-color: #1e1e1e;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+  border: 1px solid #333;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.Quotes {
+  font-size: 36px;
+  font-weight: bold;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.Quotes-Author {
+  font-size: 28px;
+  font-style: italic;
+  color: #888888;
+}
+
+/*media q for small screens*/
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 1rem;
+    padding: 10px;
+  }
+  .Quotes {
+    font-size: 24px;
+  }
+  .Quotes-Author {
+    font-size: 20px;
+  }
+}
